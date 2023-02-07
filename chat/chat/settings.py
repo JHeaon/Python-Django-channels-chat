@@ -30,9 +30,13 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+
+
 INSTALLED_APPS = [
     "channels",
     "daphne",
+
+    "app",
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -43,6 +47,7 @@ INSTALLED_APPS = [
 ]
 
 
+WSGI_APPLICATION = "chat.asgi.application"
 ASGI_APPLICATION = "chat.asgi.application"
 
 MIDDLEWARE = [
