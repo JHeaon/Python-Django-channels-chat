@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\j3hea\OneDrive\바탕 화면\Data\Django-channels-chat\myvenv"
+VIRTUAL_ENV="C:\Users\j3hea\OneDrive\바탕 화면\Data\Python-Django-channels-chat\myvenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
