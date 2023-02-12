@@ -19,7 +19,10 @@
 
     ws.onmessage = (event) => {
         const message = event.data;
-        console.log('메세지 수신 : ', message)
+        const obj = JSON.parse(message);
+
+        console.log('메세지 수신 : ', message);
+        console.log(obj);
     };
 
     ws.onerror = () => {
